@@ -1,0 +1,54 @@
+body{
+    background: #212529;
+}
+.nav-link{
+    color: #fff;
+    margin: 30px;
+    margin-left: 50px;
+}
+.nav-link:hover{
+    color: #aaa;
+}
+.nav-link:focus{
+    color: #aaa;
+}
+.navbar-brand{
+    color: #fff;
+    transition: 0.1s;
+    padding: 25px;
+    font-size: 40px;
+}
+.navbar-brand:hover{
+    color: #aaa;
+}
+.navbar-brand:focus{
+    color: #aaa;
+}
+.btn{
+    width: 200px;
+}
+div{
+    color: #fff;
+}
+h1{
+    margin: 50px;
+}
+.Secciones{
+display: inline-block;
+padding: 20px;
+}
+.sec2{
+position: absolute;
+left: 1000px;
+}
+.sec3{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+.sec4{
+    position: absolute;
+    top: 545px;
+    left: 1000px;
+}
+
