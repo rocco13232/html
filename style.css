@@ -26,29 +26,56 @@ body{
 }
 .btn{
     width: 200px;
+    background-color: #a2c;
+    color: #fff;
+    border: #a2c;
+}
+.btn:hover{
+    background-color: #819;
+}
+.btn:active{
+    background-color: #819 !important;
 }
 div{
     color: #fff;
 }
 h1{
     margin: 50px;
+    position: relative;
+    bottom: 40px;
 }
 .Secciones{
 display: inline-block;
 padding: 20px;
 }
-.sec2{
+.Sec1{
+    position: absolute;
+    top: 205px;
+    left: 150px;
+}
+.Sec2{
 position: absolute;
 left: 1000px;
+top: 200px;
 }
-.sec3{
+.Sec3{
     position: absolute;
     top: 550px;
     left: 150px;
 }
-.sec4{
+.Sec4{
     position: absolute;
     top: 545px;
     left: 1000px;
 }
+.Contenido{
+    background: #000;
+    border-radius: 20px;
+    width: 700px;
+    height: 280px;
+}
+i{
+    margin: 10px;
+}
+
 
