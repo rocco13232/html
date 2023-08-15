@@ -19,10 +19,10 @@ body{
     font-size: 40px;
 }
 .navbar-brand:hover{
-    color: #aaa;
+    color: #fff;
 }
 .navbar-brand:focus{
-    color: #aaa;
+    color: #fff;
 }
 .btn{
     width: 200px;
