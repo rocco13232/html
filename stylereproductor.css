@@ -1,0 +1,119 @@
+body{
+    background-color: #111 !important;
+}
+#container{
+    background: #212529;
+    width: 400px;
+    height: 735px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.cabeza{
+    margin: 0;
+}
+.cabeza li{
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    color: #fff;
+}
+.escuchando{
+text-align: center;
+display: block;
+width: 320px;
+max-width: 320px;
+margin-right: 5px;
+font-size: 30px;
+margin-top: 5px;
+font-weight: bold;
+}
+.exi{
+    margin-left: -15px;
+    font-size: 30px;
+    color: #a2c;
+}
+.cabeza li:nth-child(3){
+    margin-top: 25px;
+}
+.portada{
+    clear: left;
+}
+.portada img{
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 23px;
+    box-shadow: 2px 2px 10px #666;
+}
+#cancion{
+    margin-left: 10px;
+    margin-top: 40px;
+    color: #fff;
+}
+#nombre{
+    width: 300px;
+    margin-left: 12px;
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+#artista{
+    width: 300px;
+    margin-left: 26px;
+    float: left;
+    font-size: 15px;
+    margin: 15px;
+}
+#barra{
+    clear: left;
+    margin-top: 20px;
+    width: 345px;
+    height: 3px;
+    background-color: #b1adad;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+#barra p{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#progreso{
+    margin-top: 20px;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.pro{
+    width: 50px;
+    float: left;
+}
+.dur{
+    float: right;
+}
+#controles{
+    clear: left;
+    text-align: center;
+    margin-left: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#controles .min{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 35px;
+}
+#controles .max{
+    text-decoration: none;
+    color: #fff;
+    font-size: 60px;
+    margin-right: 35px;
+}
+#estado{
+    width: 50px;
+}
