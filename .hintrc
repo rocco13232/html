@@ -3,17 +3,10 @@
     "development"
   ],
   "hints": {
-<<<<<<< HEAD
     "axe/name-role-value": [
       "default",
       {
         "link-name": "off"
-=======
-    "axe/forms": [
-      "default",
-      {
-        "label": "off"
->>>>>>> 674a85936e66c3955861267703fe00ee0cbd4090
       }
     ]
   }

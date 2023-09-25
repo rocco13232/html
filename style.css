@@ -154,7 +154,6 @@ i{
 }
 
 
-<<<<<<< HEAD
 .playlist:hover .play-button {
     opacity: 1; /* Mostrar el botón de reproducción al hacer hover en .playlist */
 }
@@ -172,7 +171,6 @@ i{
 }
 
 
-=======
 
 
 /* styles.css */
@@ -285,5 +283,4 @@ body {
   
   /* Additional styling can be added as per your design preferences */
   
->>>>>>> 674a85936e66c3955861267703fe00ee0cbd4090
 
