@@ -9,33 +9,33 @@
     <script src="https://kit.fontawesome.com/8c1ce7120d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <audio src="./media/Pink Floyd  Time (Official Audio).mp3"></audio>
+  <audio src="" id="audio"></audio>
   <section id="container">
-<ul class="cabeza">
-  <li><a href="" class="exi"><i class="fa-solid fa-arrow-left"></i></a></li>
-  <li class="escuchando">Playing now</li>
-</ul>
-<div class="portada">
-  <img src="./imagenes/The_Dark_Side_of_the_Moon_Cover.png" alt="">
-</div>
-<div id="cancion">
-  <div id="nombre">
-    Time
-  </div>
-  <div id="artista">
-Pink Floyd
-  </div>
-</div>
-<div id="barra">
-  <div id="progreso"></div>
-  <p class="pro">0:00</p>
-  <p class="dur">0:00</p>
-</div>
-<div id="controles">
-  <a href="" class="min"><i class="fa-solid fa-backward"></i></a>
-  <a href="" class="max"><i class="fa-solid fa-circle-play" id="estado"></a>
-  <a href="" class="min"><i class="fa-solid fa-forward"></i></a>
-</div>
+    <ul class="cabeza">
+      <li><a href="index.html" class="exi"><i class="fa-solid fa-arrow-left"></i></a></li>
+      <li class="escuchando">Playing now</li>
+    </ul>
+    <div class="portada">
+      <img src="" alt="" id="portada-img">
+    </div>
+    <div id="cancion">
+      <div id="nombre">
+        Time
+      </div>
+      <div id="artista">
+        Pink Floyd
+      </div>
+    </div>
+    <div id="barra">
+      <div id="progreso" style="width: 0%;"></div>
+      <p class="pro">0:00</p>
+      <p class="dur">0:00</p>
+    </div>
+    <div id="controles">
+      <a href="#" class="min" id="anterior"><i class="fa-solid fa-backward"></i></a>
+      <button href="" class="max" id="boton-play"><i class="fa-solid fa-circle-play" id="estado"></i></button>
+      <a href="#" class="min" id="siguiente"><i class="fa-solid fa-forward"></i></a>
+    </div>
   </section>
   <script src="audio.js"></script>
 </body>

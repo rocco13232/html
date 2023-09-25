@@ -117,3 +117,16 @@ font-weight: bold;
 #estado{
     width: 50px;
 }
+
+/* Agrega este estilo para eliminar el relleno del botón */
+button#boton-play {
+    padding: 0; /* Elimina el relleno */
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina el borde */
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    
+}
+
+

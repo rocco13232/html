@@ -70,7 +70,7 @@ top: 200px;
     left: 1000px;
 }
 .Contenido{
-    background: #000;
+    background: gray;
     border-radius: 20px;
     width: 700px;
     height: 280px;
@@ -92,7 +92,83 @@ i{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* ... Tus estilos anteriores ... */
 
+/* ... Tus estilos anteriores ... */
+
+.playlist {
+    position: relative;
+    width: 210px;
+    height: 250px;
+}
+
+#playlist-container {
+    background-color: #212529;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 20px;
+    top: 14px;
+    padding-left: 9px;
+    padding-top: 4px;
+}
+
+#playlist-container:hover {
+    background-color: #212529c9;
+}
+
+#img-playlist-container {
+    width: 170px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+}
+
+#h4-p-container {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#h6-p-container {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.play-button {
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    transform: translate(-50%, -50%);
+    background-color: #212529;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0; /* Inicialmente, ocultar el botón de reproducción */
+    transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease, background-color 0.3s ease; /* Aplica una transición a opacity, width, height y background-color */
+}
+
+
+.playlist:hover .play-button {
+    opacity: 1; /* Mostrar el botón de reproducción al hacer hover en .playlist */
+}
+
+/* Estilos para el ícono de reproducción usando FontAwesome */
+.play-button i {
+    color: white;
+    font-size: 20px;
+}
+
+.play-button:hover {
+    width: 45px;
+    height: 45px;
+    background-color: #212529cc;
+}
 
 
 
